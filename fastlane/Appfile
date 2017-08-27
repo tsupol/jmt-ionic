@@ -1,0 +1,7 @@
+app_identifier "com.jfintech.loan" # The bundle identifier of your app
+apple_id "tanic@anyicorp.com" # Your Apple email address
+
+team_id "NU2H4M2HQD"  # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md

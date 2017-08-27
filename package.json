@@ -1,0 +1,88 @@
+{
+    "name": "JFintechLoan",
+    "version": "1.1.1",
+    "private": true,
+    "license": "UNLICENSED",
+    "description": "JFintechLoan: Personal loan finance utility",
+    "dependencies": {
+        "@ionic/cloud": "^0.14.1",
+        "angular-messages": "^1.6.1",
+        "cordova-browser": "^4.1.0",
+        "cordova-custom-config": "~2.0.0",
+        "cordova-plugin-appavailability": "https://github.com/ohh2ahh/AppAvailability.git",
+        "cordova-plugin-appversion": "^1.0.0",
+        "cordova-plugin-device": "~1.1.5",
+        "cordova-plugin-geolocation": "~2.4.0",
+        "cordova-plugin-googlemaps": "~1.4.0",
+        "cordova-plugin-inappbrowser": "~1.5.0",
+        "cordova-plugin-splashscreen": "~4.0.1",
+        "cordova-plugin-statusbar": "~2.2.0",
+        "cordova-plugin-themeablebrowser": "^0.2.17",
+        "cordova-plugin-whitelist": "~1.3.0",
+        "gulp": "^3.5.6",
+        "gulp-angular-templatecache": "^2.0.0",
+        "gulp-concat": "^2.2.0",
+        "gulp-minify": "0.0.14",
+        "gulp-minify-css": "^0.3.0",
+        "gulp-ng-config": "^1.4.0",
+        "gulp-rename": "^1.2.0",
+        "gulp-sass": "^2.0.4",
+        "ionic-native": "^2.2.10",
+        "ionic-plugin-keyboard": "~2.2.1",
+        "minimist": "^1.2.0",
+        "phonegap-plugin-push": "~1.9.2",
+        "yargs": "^6.6.0"
+    },
+    "devDependencies": {
+        "@ionic/cli-plugin-cordova": "1.2.1",
+        "@ionic/cli-plugin-ionic1": "1.2.0",
+        "angular-mock": "^1.0.0",
+        "bower": "^1.3.3",
+        "gulp-util": "^2.2.14",
+        "protractor": "^4.0.14",
+        "protractor-http-mock": "^0.9.1",
+        "shelljs": "^0.3.0",
+        "wd": "^1.1.1",
+        "wd-bridge": "0.0.2"
+    },
+    "cordovaPlugins": [
+        {
+            "variables": {
+                "SENDER_ID": "604169745411"
+            },
+            "locator": "phonegap-plugin-push"
+        },
+        "cordova-plugin-whitelist",
+        "cordova-plugin-console",
+        "cordova-plugin-device",
+        "cordova-plugin-statusbar",
+        "cordova-plugin-splashscreen",
+        "ionic-plugin-keyboard"
+    ],
+    "cordovaPlatforms": [],
+    "cordova": {
+        "plugins": {
+            "cordova-custom-config": {},
+            "cordova-plugin-appavailability": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {},
+            "ionic-plugin-keyboard": {},
+            "phonegap-plugin-push": {
+                "SENDER_ID": "604169745411"
+            },
+            "cordova-plugin-googlemaps": {
+                "API_KEY_FOR_ANDROID": "AIzaSyD46fRxoN5iWEp6FJ_niZ9cVu8o6dT9fDQ",
+                "API_KEY_FOR_IOS": "AIzaSyD46fRxoN5iWEp6FJ_niZ9cVu8o6dT9fDQ"
+            },
+            "cordova-plugin-appversion": {},
+            "cordova-plugin-themeablebrowser": {}
+        },
+        "platforms": [
+            "browser"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "JMT",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "proxies": [],
+  "type": "ionic1",
+  "integrations": {
+    "cordova": {}
+  }
+}

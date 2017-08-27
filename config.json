@@ -1,0 +1,31 @@
+{
+  "production": {
+    "AppEnv": "production",
+    "AppDebug": false,
+    "ApiConfig": {
+      "api_endpoint":"https://jmt-loan-api.jfintech.co.th/api/",
+      "backup": "https://jmt-loan-api-uat.play2pay.me/api/"
+    }
+  },
+  "release": {
+    "AppEnv": "release",
+    "AppDebug": false,
+    "ApiConfig": {
+      "api_endpoint": "https://jmt-loan-api-uat.play2pay.me/api/"
+    }
+  },
+  "develop": {
+    "AppEnv": "develop",
+    "AppDebug": false,
+    "ApiConfig": {
+      "api_endpoint": "https://jmt-loan-api-dev.play2pay.me/api/"
+    }
+  },
+  "debug": {
+    "AppEnv": "debug",
+    "AppDebug": true,
+    "ApiConfig": {
+      "api_endpoint": "http://jmt.local/api/"
+    }
+  }
+}

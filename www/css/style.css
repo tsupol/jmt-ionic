@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "jmt";
+  src:url("../font/jmt.eot");
+  src:url("../font/jmt.eot?#iefix") format("embedded-opentype"),
+  url("../font/jmt.woff") format("woff"),
+  url("../font/jmt.ttf") format("truetype"),
+  url("../font/jmt.svg#jmt") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "jmt" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="jmt-"]:before,
+[class*=" jmt-"]:before {
+  font-family: "jmt" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jmt-balance:before {
+  content: "\61";
+}
+.jmt-back:before {
+  content: "\62";
+}
+.jmt-history:before {
+  content: "\63";
+}
+.jmt-pay:before {
+  content: "\64";
+}
+.jmt-setting:before {
+  content: "\65";
+}
+.jmt-search:before {
+  content: "\66";
+}
+.jmt-complete:before {
+  content: "\67";
+}
+
+/*
+iPhone 4, 4s
+iPhone 5, 5s, SE
+iPhone 6, 6s, 7
+iPhone 6+, 6s+, 7+
+ */
+
+
+/*
+iPhone 2G-4S in portrait & landscape
+ */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+  /*.platform-ios div.bar.bar-header.bar-light.text-left {*/
+    /*height: 8vh;*/
+  /*}*/
+
+  /*.platform-ios h1.title.text-left.ng-binding {*/
+    /*top: -4vh;*/
+  /*}*/
+
+  /*.platform-ios h4.title {*/
+    /*left: 20px;*/
+    /*right: 20px;*/
+    /*top: 2.5vh;*/
+  /*}*/
+
+  /*.platform-ios p.helper.text-wrap {*/
+    /*font-size: 2vh !important;*/
+  /*}*/
+}
+
+/*
+iPhone 5 & 5S in portrait & landscape
+ */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+  .platform-ios div.bar.bar-header.bar-light.text-left {
+    height: 5vh;
+  }
+
+  .platform-ios h1.title.text-left.ng-binding {
+    top: -4.9vh;
+  }
+
+  .platform-ios p.helper.text-wrap {
+    font-size: 2vh !important;
+  }
+}
+
+/*
+iPhone 6 in portrait & landscape
+ */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+  .platform-ios div.bar.bar-header.bar-light.text-left {
+    height: 5vh;
+  }
+
+  .platform-ios h1.title.text-left.ng-binding {
+    top: -3.2vh;
+  }
+
+  .platform-ios p.helper.text-wrap {
+    font-size: 2vh !important;
+  }
+}
+
+/*
+iPhone 6 Plus in portrait & landscape
+ */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+  .platform-ios div.bar.bar-header.bar-light.text-left {
+    height: 5vh;
+  }
+
+  .platform-ios h1.title.text-left.ng-binding {
+    top: -3.3vh;
+  }
+
+  .platform-ios p.helper.text-wrap {
+    font-size: 2vh !important;
+  }
+}
+
+
